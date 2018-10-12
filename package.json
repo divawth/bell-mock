@@ -1,0 +1,36 @@
+{
+  "name": "bell-mock",
+  "version": "0.0.1",
+  "description": "mock response",
+  "main": "example/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divawth/bell-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "response"
+  ],
+  "author": "diva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divawth/bell-mock/issues"
+  },
+  "homepage": "https://github.com/divawth/bell-mock#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect": "^3.6.6",
+    "dustjs-linkedin": "^2.7.5",
+    "http": "0.0.0"
+  },
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3"
+  }
+}
